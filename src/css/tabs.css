@@ -1,0 +1,38 @@
+.tabs {
+    width: 655px;
+    min-height: 70px;
+}
+
+.tab {
+    width: 136px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;    
+    translate: 0px 35px;   
+}
+
+.disabled-tab {
+    width: 136px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;    
+    translate: 0px 55px; 
+}
+
+@media only screen and (max-width: 668px) {
+    .disabled-tab {
+        width: 136px;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;    
+        translate: 0px 55px; 
+        visibility: collapse;
+    }    
+}
+
+.tab[aria-checked='true'] {
+    translate: 0px 0px;
+    transition: translate 200ms ease-in-out;
+}
+
+.tab[aria-checked='false'] {
+    translate: 0px 35px;
+    transition: translate 200ms ease-in-out;
+}
