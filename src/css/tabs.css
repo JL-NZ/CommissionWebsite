@@ -1,6 +1,9 @@
 .tabs {
-    width: 655px;
+    max-width: 655px;
+    min-width: 351px;
+    width: 100%;
     min-height: 70px;
+    box-sizing: border-box;
 }
 
 .tab {
@@ -8,6 +11,7 @@
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;    
     translate: 0px 35px;   
+    box-sizing: inherit;
 }
 
 .disabled-tab {
@@ -15,6 +19,7 @@
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;    
     translate: 0px 55px; 
+    box-sizing: inherit;
 }
 
 @media only screen and (max-width: 668px) {
