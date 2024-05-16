@@ -50,7 +50,7 @@
     <div class="bg-neutral-950 mb-4 sub-panel rounded-lg self-start">      
       <div class="roboto-light mx-4 my-4"> 
         The source code for this website is publically available at 
-        <a class="hover:text-sky-400" href="https://github.com/blahblahblah">https://github.com/JL-NZ/CommissionWebsite</a> 
+        <a class="hover:text-sky-400" href="https://github.com/JL-NZ/CommissionWebsite">https://github.com/JL-NZ/CommissionWebsite</a> 
         as a Svelte and Typescript portfolio piece.
       </div>    
     </div>
